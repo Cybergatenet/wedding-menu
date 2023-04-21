@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu Application</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="background"></div>
+
+    <div class="container full-page">
+		<div class="container-fluid header standard-padding bg-primary text-white">
+			<div>
+				<a class="btn btn-sm text-white" href="../index.html">Home</a>
+				<a class="btn btn-sm text-white" href="./addItem.html">Add Recipe</a>
+			</div>
+			<div ng-hide="hider">
+				<span class="medium-font-size">Hello, Nwahiri Hope Ebere</span>
+				<a class="btn btn-sm text-white" href="../index.html">Logout</a>
+			</div>
+		</div>
+
+		<br>
+		<br>
+		<h2>Menu List</h2>
+		<br>
+		<section id="cards">
+			<!-- Card ONe -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://pocketchangegourmet.com/wp-content/uploads/2013/01/Blueberry-Pancakes.1.jpg" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://pocketchangegourmet.com/homemade-blueberry-syrup-and-pancakes/">Place Order</a>
+				</div>
+			</div>
+
+			<!-- Card Two -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://hoosierhomemade.com/wp-content/uploads/Taco-Ring.featured.jpg" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://hoosierhomemade.com/taco-ring-and-our-menu-plan/">Place Order</a>
+				</div>
+			</div>
+
+			<!-- Card Three -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://2.bp.blogspot.com/-iayc82KQDpQ/UXQpNIdTXnI/AAAAAAAAXs0/Ipa2vejKxPQ/s400/025.JPG" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://www.mommyskitchen.net/2008/06/honey-lime-grilled-chicken.html">Place Order</a>
+				</div>
+			</div>
+
+			<!-- Card Four -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://pocketchangegourmet.com/wp-content/uploads/2013/07/Chicken-Philly.ZL_.jpg" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://pocketchangegourmet.com/grilled-chicken-philly-sandwiches/">Place Order</a>
+				</div>
+			</div>
+
+			<!-- Card Five -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://pocketchangegourmet.com/wp-content/uploads/2014/08/Stir-Fry-Beef-Lo-Mein.ZL_.jpg" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://pocketchangegourmet.com/stir-fry-beef-lo-mein/">Place Order</a>
+				</div>
+			</div>
+
+			<!-- Card Six -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://hoosierhomemade.com/wp-content/uploads/Southwestern-Pork-Kabobs.post_.jpg" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://hoosierhomemade.com/southwestern-pork-kabobs/">Place Order</a>
+				</div>
+			</div>
+
+
+			<!-- Card Seven -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://pocketchangegourmet.com/wp-content/uploads/2013/05/Hoisin-Chicken-Sandwich.1.jpg" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://pocketchangegourmet.com/honey-hoisin-chicken-sandwiches-in-the-slow-cooker/">Place Order</a>
+				</div>
+			</div>
+
+			<!-- Card Eight -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://pocketchangegourmet.com/wp-content/uploads/2012/05/Sausage-Potato-Foil-Packet.main_.jpg" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://pocketchangegourmet.com/sausage-potato-campfire-packets-camping-food/">Place Order</a>
+				</div>
+			</div>
+
+			<!-- Card Eight -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://pocketchangegourmet.com/wp-content/uploads/2013/06/Southwestern-Salad.1.jpg" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://pocketchangegourmet.com/seven-layer-southwestern-salad/">Place Order</a>
+				</div>
+			</div>
+
+			<!-- Card Eight -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://pocketchangegourmet.com/wp-content/uploads/2013/01/Hamburger-Noodle-Bake.jpg" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://pocketchangegourmet.com/beefy-noodle-casserole/">Place Order</a>
+				</div>
+			</div>
+
+			<!-- Card Eight -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://hoosierhomemade.com/wp-content/uploads/Barbecue-Bacon-Pork-Chops.VW_.jpg" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://hoosierhomemade.com/grilled-barbecue-bacon-pork-chops/">Place Order</a>
+				</div>
+			</div>
+
+			<!-- Card Nine -->
+			<div class="card">
+				<div class="card-image">
+					<img class="w-100" height="250" src="http://pocketchangegourmet.com/wp-content/uploads/2013/11/Slow-Cooker-Enchiladas.ZL_.jpg" />
+					
+				</div>
+				<div class="card-body">
+					<div class="card-title">
+						Menu One
+					</div>
+					<div class="card-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut corrupti dolores laudantium sapiente laboriosam?
+					</div>
+					<a class="btn btn-primary" href="http://pocketchangegourmet.com/slow-cooker-enchiladas/">Place Order</a>
+				</div>
+			</div>
+
+
+		</section>
+
+		<br>
+		<br>
+		<br>
+	
+		<div class="footer standard-padding text-center">
+			&copy; Copyright @ All Right Reserved
+		</div>
+
+	</div>
+
+	<script src="../js/app.js"></script>
+</body>
+</html>
